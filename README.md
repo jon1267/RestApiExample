@@ -6,24 +6,24 @@ REST API using auth tokens with Laravel Sanctum
 
 Public Routes
 
-GET   /api/books
-GET   /api/books/:id
+GET   /api/books <br>
+GET   /api/books/:id <br>
 
-POST   /api/login
-@body: email, password
+POST   /api/login <br>
+@body: email, password <br>
 
-POST   /api/register
-@body: name, email, password, password_confirmation
+POST   /api/register <br>
+@body: name, email, password, password_confirmation <br>
 
 
 Protected Routes
 
-POST   /api/books
-@body: title, description, publisher_id
+POST   /api/books <br>
+@body: title, description, publisher_id <br>
 
-PUT   /api/books/:id
-@body: ?title, ?description, ?publisher_id
+PUT   /api/books/:id <br>
+@body: ?title, ?description, ?publisher_id <br>
 
-DELETE  /api/books/:id
+DELETE  /api/books/:id <br>
 
-POST    /api/logout
+POST    /api/logout <br>

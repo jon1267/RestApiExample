@@ -6,5 +6,5 @@ use App\Http\Controllers\MainLibPageController;
 Route::get('/', [MainLibPageController::class, 'index']);
 
 
-Auth::routes();
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Auth::routes();
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
